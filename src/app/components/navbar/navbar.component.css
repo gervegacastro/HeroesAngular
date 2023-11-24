@@ -1,0 +1,39 @@
+
+.navbar-container {
+    margin-left: 8%;
+    margin-top: 5%;    
+}
+
+h1 {
+    color: #264d73;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    color: #264d73; 
+    border: #fff;   
+    padding: 12px;
+    border-radius: 5px;    
+}
+
+.buttons :hover {
+    background-color:#264d73;
+    color : #fff;    
+}
+
+@media only screen and (max-width : 600px) {
+
+    .navbar-container {
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-top: 1%;    
+    }
+
+}

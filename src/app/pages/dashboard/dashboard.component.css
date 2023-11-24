@@ -1,0 +1,71 @@
+
+.dashboard-container {
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;    
+    justify-content: center;    
+    gap: 5%;    
+}
+
+.buttons :hover {
+    background-color: black;
+}
+
+button {
+    padding: 15px;
+    color: #fff;
+    background-color: #264d73;
+    border: #fff;
+    width: 180px;
+    font-size: 18px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #264d73;
+}
+
+input {
+    max-width: 600px;
+}
+
+@media only screen and (max-width : 600px) {
+
+
+    .dashboard-container {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 5%;
+    }
+
+    .buttons {
+        display: block;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
