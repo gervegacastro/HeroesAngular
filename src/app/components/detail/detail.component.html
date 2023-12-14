@@ -1,0 +1,29 @@
+
+<div class="detail-cotainer">
+
+    <h2>{{ hero.name | uppercase}} detail</h2>
+    <div>
+        <div class="label-id">
+            <label for="">id: {{ hero.id }}</label>
+        </div>    
+        <div class="hero-name">
+            <label for="">Hero name:</label>
+            <input #input type="text" [(ngModel)]="hero!.name">
+        </div>
+        <div class="buttons">
+            <button (click)="goBack()"
+                    type="button">
+                go back
+            </button>
+            <button (click)="update( hero.id!, input.value )"
+                    type="button">
+                save
+            </button>
+        </div>      
+    </div>
+
+</div>
+
+
+
+
